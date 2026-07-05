@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "contracts/remittance",
+    "contracts/compliance", 
+    "contracts/anchor-registry",
+    "contracts/pathfinder"
+]
+
+[workspace.dependencies]
+soroban-sdk = "21.7.0"
+soroban-token-sdk = "21.7.0"
